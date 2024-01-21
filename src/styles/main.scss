@@ -1,0 +1,11 @@
+@tailwind components;
+@tailwind utilities;
+@import '~normalize-css';
+
+.gear {
+  transition: transform 2s;
+  &:hover {
+    transform: rotate(200deg);
+  }
+}
+
